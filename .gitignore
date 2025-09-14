@@ -1,0 +1,21 @@
+# Python virtual environment
+/venv/
+/.venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and OS files
+.vscode/
+.idea/
+*.DS_Store
+
+# Large data and model files
+# We will handle these with Git LFS (Large File Storage)
+# but still list them here as a safeguard.
+*.sqlite
+*.h5
+*.json
